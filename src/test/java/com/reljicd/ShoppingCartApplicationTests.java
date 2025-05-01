@@ -1,13 +1,16 @@
-import org.junit.jupiter.api.Test;
+package com.reljicd;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.junit4.SpringRunner;
 
+@RunWith(SpringRunner.class)
 @SpringBootTest
-@ActiveProfiles("test")
-class ShoppingCartApplicationTests {
+public class ShoppingCartApplicationTests {
 
-    @Test
-    void contextLoads() {
-        // Verify context starts successfully
-    }
+	@Test
+	public void contextLoads() {
+	}
+
 }
