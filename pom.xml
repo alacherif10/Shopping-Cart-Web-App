@@ -33,12 +33,7 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Data REST HAL Browser -->
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-rest-hal-browser</artifactId>
-            <version>2.6.3</version>
-        </dependency>
+        
 
         <!-- Thymeleaf Extras for Spring Security -->
         <dependency>
