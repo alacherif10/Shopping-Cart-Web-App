@@ -30,12 +30,6 @@
     </properties>
 
     <dependencies>
-                 <!-- Spring Boot Starter Test (includes JUnit 5 and other testing tools) -->
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-test</artifactId>
-        <scope>test</scope>
-    </dependency>
         <!-- Data JPA -->
         <dependency>
             <groupId>javax.xml.bind</groupId>
